@@ -1,14 +1,22 @@
 #ifndef PLAYER_H
 #define PLAYER_H
+#include <QGraphicsItem>
+#include <QObject>
 
-#include <QMainWindow>
-
-class Player : public QMainWindow
+class Player: public QObject, public QGraphicsPixmapItem
 {
     Q_OBJECT
-
 public:
-    Player(QWidget *parent = nullptr);
-    ~Player();
+    Player();
+public:
+
+    void keyPressEvent(QKeyEvent * event);
+private:
+
+    QGraphicsTextItem *score;
+public slots:
+    void createEnemy();
+
 };
+
 #endif // PLAYER_H
