@@ -6,12 +6,14 @@
 #include <player.h>
 #include "score.h"
 
+
 extern Score* score;
 Bullet::Bullet():QObject(), QGraphicsPixmapItem() {
 
     // *******  Setting the bullets' size ********
 QPixmap pixmap2(":/Images/red_laser.png");
     setPixmap(pixmap2);
+
     // *******  Generating the Bullets automatically ********
     QTimer * timer = new QTimer();
     connect(timer, SIGNAL(timeout()),this,SLOT (move()));

@@ -7,8 +7,10 @@
 #include <QDebug>
 #include <QBrush>
 #include "score.h"
+#include"health.h"
 
 Score * score;
+Health*health;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -20,11 +22,14 @@ int main(int argc, char *argv[])
 
     // ******* Create the Scene ********
     score= new Score;
-    score->setFont(QFont("times",16));
+    //core->setFont(QFont("times",16));
     //score->setDefaultTextColor(Qt::blue);
     //score->setPlainText(QString("Score:")+QString::number(0));
     score->setPos(700,10);
     scene.addItem(score);
+    health=new Health;
+    health->setPos(10,10);
+    scene.addItem(health);
      Player*p=new Player();// *******  Create the Player ********
 
     p->setFlag(QGraphicsItem::ItemIsFocusable);

@@ -1,14 +1,19 @@
 #ifndef HEALTH_H
 #define HEALTH_H
+#include<QGraphicsItem>
 
-class Health
+class Health: public QGraphicsTextItem
 {
-private:
 
-    int heartvalue;
 
-public:
-    Health();
+    private:
+        int healthValue;
+
+    public:
+        Health(QGraphicsItem *h=0);
+        void decrease();
+        int getHealth();
+
 
 
 };
