@@ -7,6 +7,7 @@
 #include "score.h"
 
 
+
 extern Score* score;
 Bullet::Bullet():QObject(), QGraphicsPixmapItem() {
 
@@ -18,6 +19,13 @@ QPixmap pixmap2(":/Images/red_laser.png");
     QTimer * timer = new QTimer();
     connect(timer, SIGNAL(timeout()),this,SLOT (move()));
     timer->start(50);
+    bs = new QMediaPlayer();
+    bs->setSource(QUrl("qrc:/Aud/destruction.m4a"));
+    audio = new QAudioOutput;
+    bs->setAudioOutput(audio);
+
+
+
 }
 
 // Move function is used to 1-  move the bullet upwards
@@ -33,6 +41,8 @@ void Bullet:: move()
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);
             delete colliding_items[i];
+            audio->setVolume(50);
+            bs->play();
             delete this;
 
 

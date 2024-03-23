@@ -119,6 +119,11 @@ Makefile: ../Ass2/Ass2.pro C:/Qt/QT2/6.6.2/mingw_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_linguist.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimedia.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_network.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_network_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_opengl.pri \
@@ -158,6 +163,7 @@ Makefile: ../Ass2/Ass2.pro C:/Qt/QT2/6.6.2/mingw_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
@@ -182,6 +188,8 @@ Makefile: ../Ass2/Ass2.pro C:/Qt/QT2/6.6.2/mingw_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_shadertools.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri \
+		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_sql.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_sql_private.pri \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_svg.pri \
@@ -229,8 +237,10 @@ Makefile: ../Ass2/Ass2.pro C:/Qt/QT2/6.6.2/mingw_64/mkspecs/win32-g++/qmake.conf
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/yacc.prf \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/lex.prf \
 		../Ass2/Ass2.pro \
+		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Multimedia.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Widgets.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Gui.prl \
+		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Network.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/build_pass.prf \
@@ -285,6 +295,11 @@ C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_labswavefrontmesh_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_linguist.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_linguist_private.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimedia.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimedia_private.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_network.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_network_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_opengl.pri:
@@ -324,6 +339,7 @@ C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_qmlxmllistmodel_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick3dspatialaudio_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quick_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
@@ -348,6 +364,8 @@ C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_shadertools.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_shadertools_private.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_spatialaudio.pri:
+C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_spatialaudio_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_sql.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_sql_private.pri:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/modules/qt_lib_svg.pri:
@@ -395,8 +413,10 @@ C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/exceptions.prf:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/yacc.prf:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/lex.prf:
 ../Ass2/Ass2.pro:
+C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Multimedia.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Widgets.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Gui.prl:
+C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Network.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6Core.prl:
 C:/Qt/QT2/6.6.2/mingw_64/lib/Qt6EntryPoint.prl:
 C:/Qt/QT2/6.6.2/mingw_64/mkspecs/features/build_pass.prf:

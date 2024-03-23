@@ -1,12 +1,18 @@
-#include "player.h"
+   #include "player.h"
 #include <QKeyEvent>
 #include "bullet.h"
 #include <QGraphicsScene>
 #include<QGraphicsTextItem>
 #include <QDebug>
 #include "enemy.h"
+
+
 Player::Player() {
 
+    bs = new QMediaPlayer();
+    bs->setSource(QUrl("qrc:/Aud/bulletshot.wav"));
+    audio = new QAudioOutput;
+    bs->setAudioOutput(audio);
 
 }
 
@@ -30,6 +36,19 @@ void Player::keyPressEvent(QKeyEvent *event)
         Bullet * bullet = new Bullet();
         bullet->setPos(x()+30,y());
         scene()->addItem(bullet);
+        //sound
+        if(bs->playbackState()== QMediaPlayer::PlayingState){
+            bs->setPosition(0);
+        }
+        else if(bs->playbackState()==QMediaPlayer::StoppedState){
+
+
+           // bs->setPlaybackRate(0.5);
+            audio->setVolume(50);
+            bs->play();
+        }
+
+
 
     }
 

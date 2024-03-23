@@ -8,5 +8,8 @@
     <qresource prefix="/Aud">
         <file>shot.mp3</file>
         <file>destruction.m4a</file>
+        <file>bgsound.mp3</file>
+        <file>bulletshot.wav</file>
+        <file>GameOver.wav</file>
     </qresource>
 </RCC>

@@ -2,7 +2,8 @@
 #define PLAYER_H
 #include <QGraphicsItem>
 #include <QObject>
-
+#include<QMediaPlayer>
+#include<QAudioOutput>
 class Player: public QObject, public QGraphicsPixmapItem
 {
     Q_OBJECT
@@ -12,7 +13,8 @@ public:
 
     void keyPressEvent(QKeyEvent * event);
 private:
-
+    QMediaPlayer * bs;
+    QAudioOutput * audio;
     QGraphicsTextItem *score;
 public slots:
     void createEnemy();

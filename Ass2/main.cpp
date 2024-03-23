@@ -8,6 +8,9 @@
 #include <QBrush>
 #include "score.h"
 #include"health.h"
+#include<QMediaPlayer>
+#include<QtMultimedia>
+#include<QAudioOutput>
 
 Score * score;
 Health*health;
@@ -41,6 +44,15 @@ int main(int argc, char *argv[])
     scene.addItem(p);// *******  Adjust the location of the Player (middle of the screen) ********
     view.setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view.setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+
+    QMediaPlayer *Q = new QMediaPlayer;
+    Q ->setSource(QUrl("qrc:/Aud/bgsound.mp3"));
+
+   QAudioOutput *audio = new QAudioOutput;
+    Q->setAudioOutput(audio);
+   audio->setVolume(20);
+   Q->play();
+
 
     view.setScene(&scene);
     view.show();// *******   Assign scene to the view   ***************
