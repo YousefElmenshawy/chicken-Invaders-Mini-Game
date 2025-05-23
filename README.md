@@ -101,8 +101,8 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 ## 👥 Contributors
 
 * **Yousef Elmenshawy**
-* **Koussay Jaballah**
-  
+*  [ **Koussay Jaballah**](https://github.com/koussay0/koussay0.git)
+
 ---
 
 ## 📬 Contact & Contributions
