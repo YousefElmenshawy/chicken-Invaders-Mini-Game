@@ -66,10 +66,10 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 ## 🖼️ Screenshots & Demo
 
 ### Gameplay Demo GIF  
-![Gameplay Demo](../Assets/ChickenInvaders.gif)
+![Gameplay Demo](./Ass2/Assets/ChickenInvaders.gif)
 
 ### Lose Window with Final Score  
-![Lose Window](../Assets/lose_window.jpeg)
+![Lose Window](./Ass2/Assets/lose_window.jpeg)
 
 
 ---
