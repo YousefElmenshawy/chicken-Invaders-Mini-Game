@@ -1,6 +1,6 @@
 # 🚀 2D Space Shooter Game (Qt + C++)
 
-**Project Type:** Arcade Game
+**Project Type:** Arcade Game  
 **Technologies Used:** C++, Qt (QtWidgets + QtMultimedia)
 
 ---
@@ -42,21 +42,35 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 
 * 🪪 **Game Over Handling**
 
-  * Displays final score in a message box.
+  * Displays final score in a styled lose window.
   * Prevents repeated messages using a flag.
 
 ---
 
 ## 🗂️ Project Structure
 
-| File         | Description                                  |
-| ------------ | -------------------------------------------- |
-| `main.cpp`   | Initializes the game scene and view.         |
-| `player.cpp` | Handles player input and shooting.           |
-| `bullet.cpp` | Manages bullet movement and collision.       |
-| `enemy.cpp`  | Controls enemy behavior and game-over logic. |
-| `score.cpp`  | Score tracking and display.                  |
-| `health.cpp` | Health tracking and display.                 |
+| File             | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| `main.cpp`       | Entry point; sets up main application window.                  |
+| `mainwindow.cpp` | Manages main menu, navigation, and launching the game window. |
+| `game.cpp`       | Contains core gameplay logic, scene, and QGraphicsView setup.  |
+| `player.cpp`     | Handles player input and shooting mechanics.                   |
+| `bullet.cpp`     | Manages bullet movement and collision detection.               |
+| `enemy.cpp`      | Controls enemy behavior, movement, and game-over logic.        |
+| `score.cpp`      | Tracks and displays player's score.                            |
+| `health.cpp`     | Tracks and displays player's health.                           |
+| `losewindow.*`   | Custom dialog showing stylish game over message with final score.|
+
+---
+
+## 🖼️ Screenshots & Demo
+
+### Gameplay Demo GIF  
+![Gameplay Demo](../Assets/ChickenInvaders.gif)
+
+### Lose Window with Final Score  
+![Lose Window](../Assets/lose_window.jpeg)
+
 
 ---
 
@@ -68,9 +82,10 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 2. Go to **File > Open File or Project**.
 3. Select the `.pro` file in the project directory.
 4. Configure the kit if prompted.
-5. Press **Run** to build and launch the game.
+5. Press **Run** to build and launch the application.
+6. Use the **Main Window** to start the game, access menus, or exit.
 
-> 💡 A standalone Windows `.exe` that does not require Qt installation will be available soon.
+> 💡 The **Main Window** acts as the launcher, and the **Game** class handles the gameplay inside the game view.
 
 ---
 
@@ -90,7 +105,6 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 * Enemy: `:/Images/enemy.jpeg`
 * Bullet: `:/Images/red_laser.png`
 * Sounds:
-
   * Shooting: `:/Aud/bulletshot.wav`
   * Explosion: `:/Aud/destruction.m4a`
   * Background Music: `:/Aud/bgsound.mp3`
@@ -100,8 +114,8 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 
 ## 👥 Contributors
 
-* **Yousef Elmenshawy**
-*  [ **Koussay Jaballah**](https://github.com/koussay0/koussay0.git)
+* **Yousef Elmenshawy**  
+* [**Koussay Jaballah**](https://github.com/koussay0/koussay0.git)
 
 ---
 
@@ -112,5 +126,4 @@ If you have any questions or suggestions, feel free to reach out at **[yousefelm
 🎉 **Contributions are welcome!** If you'd like to improve or extend the project, feel free to open a pull request.
 
 ---
-
 
