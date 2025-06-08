@@ -1,9 +1,12 @@
 <RCC>
     <qresource prefix="/Images">
-        <file>chicken.png</file>
         <file>red_laser.png</file>
         <file>ship.png</file>
         <file>enemy.jpeg</file>
+        <file>background.jpg</file>
+        <file>Enemy2.png</file>
+        <file>space.jpg</file>
+        <file>Space2.JPG</file>
     </qresource>
     <qresource prefix="/Aud">
         <file>shot.mp3</file>

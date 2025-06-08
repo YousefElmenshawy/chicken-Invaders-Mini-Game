@@ -1,0 +1,16 @@
+debug/LoseWindow.o
+debug/bullet.o
+debug/enemy.o
+debug/game.o
+debug/health.o
+debug/main.o
+debug/mainwindow.o
+debug/player.o
+debug/score.o
+debug/qrc_Resources.o
+debug/moc_LoseWindow.o
+debug/moc_bullet.o
+debug/moc_enemy.o
+debug/moc_game.o
+debug/moc_mainwindow.o
+debug/moc_player.o
