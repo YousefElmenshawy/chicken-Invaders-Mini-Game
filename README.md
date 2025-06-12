@@ -122,7 +122,7 @@ This is a classic 2D space shooter game where the player controls a spaceship, s
 ## 📬 Contact & Contributions
 
 If you have any questions or suggestions, feel free to reach out at **[yousefelmenshawi@aucegypt.edu](mailto:yousefelmenshawi@aucegypt.edu)**,
-and **kjaballah@aucegypt.edu](mailto:kjaballah@aucegypt.edu)**
+and **[kjaballah@aucegypt.edu](mailto:kjaballah@aucegypt.edu)**
 
 🎉 **Contributions are welcome!** If you'd like to improve or extend the project, feel free to open a pull request.
 
